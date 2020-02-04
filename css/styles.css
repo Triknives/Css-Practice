@@ -1,21 +1,19 @@
+body {
+	margin:0;
+}
 .wrapper {
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 	grid-auto-rows: minmax(50px,auto);
 	grid-template-areas:
-		"header header header header"
-		"header header header header"
-		"team1 team2 team3 team4"
-		"score score score score"
-		"aside aside aside aside"
-		"aside aside aside aside"
-		"footer footer footer footer footer";
-	width: 100%;
-	max-width: 960px;
+	"header header header header"
+	"turn turn turn turn"
+	"team teams teams teams"
+	"score score score score";
 	margin: 0 auto;
 	border: 2px solid black;
-	border-radius:5rem
+	border-radius:1rem
 }
-#header {
-  text-align:center;
+.header {
+	
 }
