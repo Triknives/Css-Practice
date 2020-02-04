@@ -15,6 +15,7 @@
     padding: 1em;
     color: #d9480f;
 		margin: 20px;
+		align-items: center;
 }
 .wrapper {
   display: grid;
@@ -25,17 +26,20 @@
 		"h h h h "
     "a a b b "
     "c c d d ";
-  align-items: start;
 }
-.item1 {
+
+.header {
+  grid-area: h;
+}
+.team1 {
   grid-area: a;
 }
-.item2 {
+.team2 {
   grid-area: b;
 }
-.item3 {
+.team3 {
   grid-area: c;
 }
-.item4 {
+.team4 {
   grid-area: d;
 }
